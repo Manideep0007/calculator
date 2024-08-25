@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive calculator</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+<body>
+   <div class="box">
+        
+        <input id="display" type="text"> 
+        <div class="button-container">
+
+            <button onclick ="cleardisplay('C')" class="arthemetickeys">C</button>
+            <button onclick ="del('D')" class="arthemetickeys">D</button>
+            <button onclick ="appendToDisplay('%')" class="arthemetickeys">%</button>
+            <button onclick ="appendToDisplay('/')" class="arthemetickeys">/</button>
+
+            <button onclick="appendToDisplay('7')" class="keys">7</button>
+            <button onclick ="appendToDisplay('8')" class="keys">8</button>
+            <button onclick ="appendToDisplay('9')" class="keys">9</button>
+            <button onclick="appendToDisplay('*')" class="arthemetickeys">*</button>
+
+        <button onclick ="appendToDisplay('4')" class="keys">4</button>
+        <button onclick ="appendToDisplay('5')" class="keys">5</button>
+        <button onclick ="appendToDisplay('6')" class="keys">6</button>
+        <button onclick ="appendToDisplay('-')" class="arthemetickeys">-</button>
+
+        <button onclick ="appendToDisplay('1')" class="keys">1</button>
+        <button onclick ="appendToDisplay('2')" class="keys">2</button>
+        <button onclick ="appendToDisplay('3')" class="keys">3</button>
+        <button onclick ="appendToDisplay('+')" class="arthemetickeys">+</button>
+
+        <button onclick ="appendToDisplay('0')" class="keys">0</button>
+        <button onclick ="appendToDisplay('00')" class="keys">00</button>
+        <button onclick ="appendToDisplay('.')" class="keys">.</button>
+        <button onclick ="calculate()" class="arthemetickeys">=</button>
+
+    </div>
+         </div>
+   <script src="script.js"></script>
+
+</body>
+</html>
